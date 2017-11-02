@@ -2,6 +2,9 @@
 
 ID Generator
 
+**Usage:**
+- https://github.com/mikelaud/core-id-generator/blob/master/src/test/java/mikelaud/core/identity/IdGeneratorDemo.java
+
 **Maven:**
 ```XML
 <project ...>
