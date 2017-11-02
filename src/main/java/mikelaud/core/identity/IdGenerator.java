@@ -4,9 +4,13 @@ import java.time.Instant;
 
 public class IdGenerator {
 
-	private static final int RADIX = 36;
+	private final int RADIX;
+	
+	public IdGenerator() {
+		RADIX = 36;
+	}
 
-	public static String nextValue() {
+	public String nextValue() {
 		return Long.toString(Instant.now().toEpochMilli(), RADIX).toUpperCase();
 	}
 
