@@ -20,7 +20,7 @@ ID Generator Component
 		<dependency>
 			<groupId>com.github.mikelaud</groupId>
 			<artifactId>core-id-generator</artifactId>
-			<version>[1.0.0,)</version>
+			<version>[1.0.1,)</version>
 		</dependency>
 	</dependencies>
 
