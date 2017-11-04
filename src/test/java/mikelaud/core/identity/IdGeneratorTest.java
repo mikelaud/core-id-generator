@@ -1,5 +1,6 @@
 package mikelaud.core.identity;
 
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
@@ -24,6 +25,7 @@ public class IdGeneratorTest {
 	public void testNextValue() {
 		assertNotNull(mIdGenerator.nextValue());
 		assertTrue(mIdGenerator.nextValue().length() > 0);
+		assertNotEquals(mIdGenerator.nextValue(), mIdGenerator.nextValue());
 	}
 
 }
