@@ -1,6 +1,6 @@
 # core-id-generator [![Build Status](https://travis-ci.org/mikelaud/core-id-generator.svg?branch=master)](https://travis-ci.org/mikelaud/core-id-generator) [![codecov](https://codecov.io/gh/mikelaud/core-id-generator/branch/master/graph/badge.svg)](https://codecov.io/gh/mikelaud/core-id-generator) [![Release](https://jitpack.io/v/mikelaud/core-id-generator.svg)](https://jitpack.io/#mikelaud/core-id-generator)
 
-ID Generator
+ID Generator Component
 
 **Usage:**
 - https://github.com/mikelaud/core-id-generator/blob/master/src/test/java/mikelaud/core/identity/IdGeneratorDemo.java
