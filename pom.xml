@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.mikelaud</groupId>
 	<artifactId>core-id-generator</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>${project.artifactId}</name>
 	<description>${project.artifactId}</description>
 
